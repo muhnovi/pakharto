@@ -17,9 +17,7 @@ export default function Home() {
               height={40}
               className="rounded-full"
             />
-            <span className="text-xl font-bold text-amber-600">
-              Mr. Harto
-            </span>
+            <span className="text-xl font-bold text-amber-600">Mr. Harto</span>
           </div>
           <nav className="hidden md:block">
             <ul className="flex space-x-8">
@@ -66,7 +64,7 @@ export default function Home() {
             <div className="grid gap-8 md:grid-cols-2 md:gap-12">
               <div className="flex flex-col justify-center">
                 <h1 className="mb-4 text-4xl font-bold tracking-tight text-amber-800 md:text-5xl lg:text-6xl">
-                  Mie Ayam Asli
+                  Kedai Mie Ayam
                 </h1>
                 <p className="mb-6 text-lg text-amber-700">
                   Rasakan cita rasa yang kaya dari resep mi ayam terkenal dari
