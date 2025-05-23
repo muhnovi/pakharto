@@ -18,7 +18,7 @@ export default function Home() {
               className="rounded-full"
             />
             <span className="text-xl font-bold text-amber-600">
-              Mr. Harto's
+              Mr. Harto
             </span>
           </div>
           <nav className="hidden md:block">
@@ -296,7 +296,7 @@ export default function Home() {
                     ))}
                   </div>
                   <p className="mb-4 italic text-gray-600">
-                    "{testimonial.comment}"
+                    {testimonial.comment}
                   </p>
                   <div className="font-semibold text-amber-700">
                     {testimonial.name}
@@ -376,7 +376,7 @@ export default function Home() {
                   height={40}
                   className="rounded-full"
                 />
-                <span className="text-xl font-bold">Mr. Harto's</span>
+                <span className="text-xl font-bold">Mr. Harto</span>
               </div>
               <p className="text-sm">
                 Menyajikan mie ayam asli sejak tahun 1985. Komitmen kami
@@ -463,7 +463,7 @@ export default function Home() {
           </div>
           <div className="mt-8 border-t border-amber-800 pt-6 text-center text-sm">
             <p>
-              © {new Date().getFullYear()} Mr. Harto's Chicken Noodle Shop. All
+              © {new Date().getFullYear()} Mr. Harto Chicken Noodle Shop. All
               rights reserved.
             </p>
           </div>
