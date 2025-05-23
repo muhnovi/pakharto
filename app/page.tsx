@@ -316,26 +316,25 @@ export default function Home() {
             <div className="grid gap-8 md:grid-cols-2 md:gap-12">
               <div>
                 <h2 className="mb-6 text-3xl font-bold md:text-4xl">
-                  Visit Us Today
+                  Kunjungi Kami Sekarang
                 </h2>
                 <p className="mb-8">
-                  We'd love to serve you our delicious chicken noodles. Visit
-                  our shop or order online for takeaway.
+                  Kami ingin menyajikan mi ayam lezat kami untuk Anda. Kunjungi
+                  toko kami.
                 </p>
                 <div className="mb-6 grid gap-4">
                   <div className="flex items-center gap-3">
                     <MapPin className="h-5 w-5 text-amber-300" />
-                    <span>123 Noodle Street, Foodie District, City</span>
+                    <span>Kedai Utama Mr. Harto</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Phone className="h-5 w-5 text-amber-300" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>+62 811-2656-584</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Clock className="h-5 w-5 text-amber-300" />
                     <div>
                       <p>Monday - Friday: 10:00 AM - 9:00 PM</p>
-                      <p>Saturday - Sunday: 11:00 AM - 10:00 PM</p>
                     </div>
                   </div>
                 </div>
@@ -346,14 +345,14 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Get Directions
+                      Lokasi
                     </a>
                   </li>
                 </Button>
               </div>
               <div className="relative h-64 overflow-hidden rounded-lg md:h-auto">
                 <Image
-                  src="https://maps.app.goo.gl/yhYta6ht2BpehfFW9"
+                  src="/pk.jpg"
                   alt="Mr. Harto's Restaurant"
                   width={800}
                   height={600}
