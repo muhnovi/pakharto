@@ -84,7 +84,7 @@ export default function Home() {
                   >
                     <a
                       href="https://wa.me/+628112656584?text=Hello Pak. Harto! Saya mau mie ayam."
-                      target="_blank"  
+                      target="_blank"
                       className="text-amber-600 hover:text-amber-700"
                     >
                       Order Now
@@ -333,7 +333,7 @@ export default function Home() {
                   <div className="flex items-center gap-3">
                     <Clock className="h-5 w-5 text-amber-300" />
                     <div>
-                      <p>Monday - Friday: 10:00 AM - 9:00 PM</p>
+                      <p>Setiap Hari : 10:00 AM - 7:00 PM</p>
                     </div>
                   </div>
                 </div>
