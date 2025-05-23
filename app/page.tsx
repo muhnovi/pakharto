@@ -73,14 +73,24 @@ export default function Home() {
                 </p>
                 <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Button className="bg-amber-600 hover:bg-amber-700">
-                    View Our Menu
+                    <a
+                      href="#menu"
+                      className="text-white"
+                    >
+                      View Our Menu
+                    </a>
                     <ChevronRight className="ml-2 h-4 w-4" />
                   </Button>
                   <Button
                     variant="outline"
                     className="border-amber-600 text-amber-600 hover:bg-amber-50"
                   >
-                    Order Takeaway
+                    <a
+                      href="https://wa.me/+628112656584?text=Hello Pak. Harto! Saya mau mie ayam."
+                      className="text-amber-600 hover:text-amber-700"
+                    >
+                      Order Now
+                    </a>
                   </Button>
                 </div>
                 <div className="mt-8 flex items-center space-x-4">
@@ -93,7 +103,7 @@ export default function Home() {
                     ))}
                   </div>
                   <span className="text-sm text-gray-600">
-                    Over 500+ happy customers
+                    Over 100+ happy customers
                   </span>
                 </div>
               </div>
@@ -171,19 +181,19 @@ export default function Home() {
               {[
                 {
                   name: "Mie Ayam",
-                  description: "-",
+                  description: "Mie ayam dengan kuah kaldu spesial",
                   price: "Rp.8.000",
                   image: "/mieayam.jpg",
                 },
                 {
                   name: "Es teh",
-                  description: "-",
+                  description: "Es teh manis segar",
                   price: "Rp.2.000",
                   image: "/esteh.jpg",
                 },
                 {
                   name: "Sundukan",
-                  description: "-",
+                  description: "Sundukan telur puyuh",
                   price: "Rp.3.000",
                   image: "/sundukan.jpg",
                 },
@@ -229,22 +239,15 @@ export default function Home() {
                     <p className="mb-4 text-sm text-gray-600">
                       {item.description}
                     </p>
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="w-full border-amber-600 text-amber-600 hover:bg-amber-50"
-                    >
-                      Add to Order
-                    </Button>
                   </div>
                 </div>
               ))}
             </div>
-            <div className="mt-12 text-center">
+            {/* <div className="mt-12 text-center">
               <Button className="bg-amber-600 hover:bg-amber-700">
                 View Full Menu
               </Button>
-            </div>
+            </div> */}
           </div>
         </section>
 
