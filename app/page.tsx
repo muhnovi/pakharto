@@ -73,10 +73,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Button className="bg-amber-600 hover:bg-amber-700">
-                    <a
-                      href="#menu"
-                      className="text-white"
-                    >
+                    <a href="#menu" className="text-white">
                       View Our Menu
                     </a>
                     <ChevronRight className="ml-2 h-4 w-4" />
@@ -86,7 +83,7 @@ export default function Home() {
                     className="border-amber-600 text-amber-600 hover:bg-amber-50"
                   >
                     <a
-                      href="https://wa.me/+628112656584?text=Hello Pak. Harto! Saya mau mie ayam."
+                      href="https://wa.me/+628112656584?text=Hello Pak. Harto! Saya mau mie ayam."  
                       className="text-amber-600 hover:text-amber-700"
                     >
                       Order Now
@@ -464,8 +461,8 @@ export default function Home() {
           </div>
           <div className="mt-8 border-t border-amber-800 pt-6 text-center text-sm">
             <p>
-              © {new Date().getFullYear()} Mr. Harto Chicken Noodle Shop. All
-              rights reserved.
+              © {new Date().getFullYear()} Mie ayam Mr. Harto. All rights
+              reserved. By Muhammad Noviyanto
             </p>
           </div>
         </div>
