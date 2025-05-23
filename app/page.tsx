@@ -83,7 +83,8 @@ export default function Home() {
                     className="border-amber-600 text-amber-600 hover:bg-amber-50"
                   >
                     <a
-                      href="https://wa.me/+628112656584?text=Hello Pak. Harto! Saya mau mie ayam."  
+                      href="https://wa.me/+628112656584?text=Hello Pak. Harto! Saya mau mie ayam."
+                      target="_blank"  
                       className="text-amber-600 hover:text-amber-700"
                     >
                       Order Now
