@@ -52,7 +52,7 @@ export default function Home() {
             <a
               href="https://wa.me/+628112656584?text=Hello Pak. Harto! Saya mau mie ayam."
               target="_blank"
-            ></a>
+            >Order Now</a>
           </Button>
           <div className="md:hidden">
             <MobileNav />
