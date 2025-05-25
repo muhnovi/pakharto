@@ -49,7 +49,10 @@ export default function Home() {
             </ul>
           </nav>
           <Button variant="outline" size="sm" className="hidden md:flex">
-            Order Now
+            <a
+              href="https://wa.me/+628112656584?text=Hello Pak. Harto! Saya mau mie ayam."
+              target="_blank"
+            ></a>
           </Button>
           <div className="md:hidden">
             <MobileNav />
